@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dlamini House | Web, Apps, Cloud & Training</title>
+  <meta name="description" content="Dlamini House builds modern websites and mobile apps, and is expanding into Cloud solutions and Microsoft-aligned training." />
+  <meta name="theme-color" content="#0B1220" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="Dlamini House Home">
+        <img class="brand__logo" src="./assets/logo-dlamini-house.png" alt="Dlamini House logo">
+        <div class="brand__text">
+          <span class="brand__name">Dlamini House</span>
+          <span class="brand__tag">Digital • Cloud • Training</span>
+        </div>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary Navigation">
+        <a href="#services">Services</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Toggle theme">
+          <span class="icon" aria-hidden="true">◐</span>
+          <span class="btn__text">Theme</span>
+        </button>
+
+        <a class="btn btn--primary" href="#contact">Get a Quote</a>
+
+        <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile" id="mobileMenu" hidden>
+      <div class="container mobile__inner">
+        <a href="#services" class="mobile__link">Services</a>
+        <a href="#stack" class="mobile__link">Tech Stack</a>
+        <a href="#process" class="mobile__link">Process</a>
+        <a href="#contact" class="mobile__link">Contact</a>
+        <a class="btn btn--primary mobile__cta" href="#contact">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="pill">
+          <span class="dot"></span>
+          Built for corporates. Friendly for start-ups.
+        </p>
+
+        <h1>
+          Cloud-ready websites & apps that
+          <span class="grad">scale beautifully</span>.
+        </h1>
+
+        <p class="lead">
+          Dlamini House designs and builds modern web platforms, mobile apps, and secure digital experiences.
+          We’re expanding into Microsoft-aligned cloud solutions and training — with quality, governance, and uptime in mind.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact">Request a Proposal</a>
+          <a class="btn btn--ghost" href="#services">Explore Services</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">Web</span>
+            <span class="stat__label">E-commerce • SaaS • Landing Pages</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">Apps</span>
+            <span class="stat__label">iOS/Android • Cross-platform</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">Cloud</span>
+            <span class="stat__label">Microsoft-ready roadmap</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-label="Cloud and data illustration">
+        <div class="hero__image" role="img" aria-label="Dlamini House cloud and data theme"></div>
+        <div class="glassCard">
+          <div class="glassCard__title">Partner-ready delivery</div>
+          <div class="glassCard__body">
+            Secure-by-design builds • Documentation • Deployment pipelines • Ongoing support
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Services</h2>
+        <p>Clean builds, strong foundations, and a design language that feels premium.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Custom Web Development</h3>
+          <p>E-commerce, SaaS platforms, and conversion-focused landing pages — responsive, fast, and SEO-friendly.</p>
+          <ul class="list">
+            <li>Business sites & portals</li>
+            <li>Booking & payment flows</li>
+            <li>CMS or custom admin</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Mobile App Development</h3>
+          <p>Modern iOS/Android solutions designed for performance, reliability, and maintainability.</p>
+          <ul class="list">
+            <li>Cross-platform builds</li>
+            <li>APIs & integrations</li>
+            <li>Analytics & notifications</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Cloud & Security Foundations</h3>
+          <p>We build with a Microsoft-ready mindset: identity, access control, and secure deployment patterns.</p>
+          <ul class="list">
+            <li>Secure hosting patterns</li>
+            <li>Data protection practices</li>
+            <li>Monitoring & backups</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="note">
+        <strong>Coming soon:</strong> Microsoft cloud services (Azure-aligned) & Microsoft Certified Training (MCT track).
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="stack" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Tech Stack</h2>
+        <p>A modern stack with a Microsoft Partner-ready narrative: secure identity, scalable hosting, and reliable delivery.</p>
+      </div>
+
+      <div class="stackGrid">
+        <div class="stackCol">
+          <div class="stackTitle">Web & UI</div>
+          <div class="chips">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">React (optional)</span>
+            <span class="chip">UI/UX Systems</span>
+            <span class="chip">Responsive Design</span>
+          </div>
+          <p class="stackHint">
+            We prioritize accessibility, speed, and a “clean corporate” look that still feels creative.
+          </p>
+        </div>
+
+        <div class="stackCol">
+          <div class="stackTitle">Backend & Data</div>
+          <div class="chips">
+            <span class="chip">Node.js / PHP (project-fit)</span>
+            <span class="chip">REST APIs</span>
+            <span class="chip">MySQL / SQL</span>
+            <span class="chip">Authentication & Roles</span>
+            <span class="chip">Secure File Delivery</span>
+          </div>
+          <p class="stackHint">
+            Clear data models, audit-friendly logs, and best-practice security defaults.
+          </p>
+        </div>
+
+        <div class="stackCol">
+          <div class="stackTitle">Cloud & Delivery</div>
+          <div class="chips">
+            <span class="chip">Cloudflare Pages</span>
+            <span class="chip">GitHub CI/CD</span>
+            <span class="chip">CDN + Caching</span>
+            <span class="chip">Environment Config</span>
+            <span class="chip">Monitoring</span>
+          </div>
+          <p class="stackHint">
+            Microsoft-ready path: governance mindset, documentation, and scalable cloud patterns.
+          </p>
+        </div>
+      </div>
+
+      <div class="partnerCard">
+        <h3>Microsoft Partner–ready narrative (how we position delivery)</h3>
+        <div class="partnerPoints">
+          <div class="pp">
+            <div class="pp__kicker">Identity & Access</div>
+            <div class="pp__text">We design apps around strong authentication, role-based access, and least-privilege concepts.</div>
+          </div>
+          <div class="pp">
+            <div class="pp__kicker">Security by Default</div>
+            <div class="pp__text">Secure headers, input validation, audit logging, safe file handling, and privacy-conscious data flows.</div>
+          </div>
+          <div class="pp">
+            <div class="pp__kicker">Cloud Scalability</div>
+            <div class="pp__text">Production-friendly deployments with performance optimization, monitoring, and documentation.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>How we work</h2>
+        <p>Simple, structured, and transparent — so you can sign off confidently.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <div>
+            <h3>Discover</h3>
+            <p>We clarify goals, users, pages, features, content, and success metrics.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <div>
+            <h3>Design</h3>
+            <p>Wireframes → a polished UI with your brand, icons, and the cloud-tech theme.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <div>
+            <h3>Build & Launch</h3>
+            <p>Implementation, QA, performance tuning, deployment, and handover docs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section--cta">
+    <div class="container cta">
+      <div class="cta__copy">
+        <h2>Let’s build something reliable and beautiful.</h2>
+        <p>
+          Tell us what you’re building — we’ll reply with a short plan, timeline, and a clear quote.
+        </p>
+
+        <div class="cta__meta">
+          <div class="metaItem">
+            <div class="metaItem__k">Ideal for</div>
+            <div class="metaItem__v">Corporate sites • SMEs • Start-ups • Portals</div>
+          </div>
+          <div class="metaItem">
+            <div class="metaItem__k">Delivery</div>
+            <div class="metaItem__v">Design + build + deploy + support</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" onsubmit="return window.DH_sendEmail(event)">
+        <div class="form__row">
+          <label>
+            <span>Name</span>
+            <input required name="name" type="text" placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input required name="email" type="email" placeholder="you@company.com" />
+          </label>
+        </div>
+
+        <label>
+          <span>What do you need?</span>
+          <select name="need">
+            <option>Website</option>
+            <option>Mobile App</option>
+            <option>Website + App</option>
+            <option>Cloud / Hosting Advice</option>
+            <option>Training (Future)</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea required name="message" rows="5" placeholder="Briefly describe your project, timeline, and any links."></textarea>
+        </label>
+
+        <button class="btn btn--primary btn--full" type="submit">Send enquiry</button>
+        <p class="form__hint">
+          This form opens your email client (no backend yet). We can add a serverless contact form later.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="./assets/logo-dlamini-house.png" alt="Dlamini House logo" />
+        <div>
+          <div class="footer__name">Dlamini House</div>
+          <div class="footer__small">Web • Apps • Cloud-ready delivery</div>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <a href="#services">Services</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__small">
+        © <span id="year"></span> Dlamini House. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
